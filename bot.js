@@ -6,7 +6,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-  http.get(`http://.glitch.me/`);
+  http.get(`http://sanshexaras.glitch.me/`);
 }, 280000);
  
 //the new coding san shex aras
@@ -477,4 +477,4 @@ client.on("message", message => {
        
 });
 
-client.login(process.env.BOT_TOKEN)
+client.login(process.env.BOT_TOKEN);
